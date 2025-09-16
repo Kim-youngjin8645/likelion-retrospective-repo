@@ -1,0 +1,18 @@
+# Throw와 Throws
+
+key”Throw는 내가 직접 예외를 발생시켜서 프로그램을 더 진행시키지 못하게 할 때 사용하는것.
+Throws는 이 메서드를 호출시에 발생하는 것들을 지정해줌→ throws처리된 것들에 대해서 호출자가 처리해줘
+
+#Stream추상화 형태/데이터가 어떤 형태이든 모두 같은 방식으로 처리하게 된다.(data흐름 느낌)
+
+ 입/출력을 위한 stream 각각 필요함.(입력stream, 출력stream)
+
+pipe의 역할을 하는 Decorator들.
+
+Component와 Decorator을 비교하는것이 중요하다.
+
+Component-근원지와 목적지가 정확하게 존재함
+
+Decorator- 기능만 존재함.//기본 기능 확장 및 개선.
+
+inputstream ouputstream reader writer를 생성자에서 받아야하는것들이 decorator
