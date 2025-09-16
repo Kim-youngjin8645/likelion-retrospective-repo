@@ -11,3 +11,7 @@
 
 # Logs
 *.log
+BookDAO.java
+BookDTO.java
+BookTest.java
+Library.java
