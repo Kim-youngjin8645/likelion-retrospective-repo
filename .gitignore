@@ -1,0 +1,17 @@
+# maxOS
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+
+# Build
+/target/
+/build/
+
+# Logs
+*.log
+BookDAO.java
+BookDTO.java
+BookTest.java
+Library.java
